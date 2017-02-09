@@ -1,0 +1,22 @@
+{
+    "env": {
+        "jest": true
+    },
+    "extends": ["airbnb"],
+    "parserOptions": {
+      "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        }
+    },
+    "plugins": [
+    ],
+    "rules": {
+      "no-console": "warn",
+      "indent": ["error", 4],
+      "import/no-unresolved": "off",
+      "import/extensions": "off",
+      "no-else-return": "off"
+    }
+}

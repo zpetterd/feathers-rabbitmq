@@ -1,0 +1,8 @@
+{
+    "execMap":{
+        "js": "node_modules/.bin/babel-node"
+    },
+    "env": {
+  "DEBUG": "feathers-rabbitmq:*"
+    }
+}
